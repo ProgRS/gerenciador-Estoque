@@ -1,7 +1,11 @@
 const express = require('express');
 const app = express();
 
+const Produto = require('./models/Produto')
+
 app.use(express.json())
+
+//const db = require('./models/db')
 
 app.get("/", async (req, res) => {
       res.send("Seja bem vindo Luís")
