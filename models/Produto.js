@@ -12,7 +12,7 @@ const Produto = db.define('produtos', {
         type: Sequelize.STRING,
         allowNull: false,
       },
-      preco_conta:{
+      preco_compra:{
           type: Sequelize.DOUBLE
       },
       preco_venda:{
